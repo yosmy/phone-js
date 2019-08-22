@@ -1,0 +1,13 @@
+{
+  "name": "@yosmy/phone",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/index.js",
+  "dependencies": {
+    "libphonenumber-js": "1.7.22"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26",
+    "babel-preset-env": "1.7"
+  }
+}
