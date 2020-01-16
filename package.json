@@ -4,10 +4,15 @@
   "private": true,
   "main": "build/index.js",
   "dependencies": {
-    "libphonenumber-js": "1.7.22"
+    "libphonenumber-js": "1.7.38"
   },
   "devDependencies": {
-    "babel-cli": "6.26",
-    "babel-preset-env": "1.7"
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "jest": "25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
